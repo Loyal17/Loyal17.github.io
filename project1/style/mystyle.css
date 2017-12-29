@@ -1,0 +1,198 @@
+/* This page contain the styles for the portfolio project  */
+html,body,aside,footer,nav,section,h1,h2,h3,h4,h5,h6,p,a,ol,ul,li,table,tr,th,td,tbody,tfoot,thead{
+margin:0;
+padding:0;
+border:0;
+background:transparent;
+}
+img{margin:0;
+    padding:0;
+    border:0;
+}
+footer,header,nav,section{
+    display:block;
+}
+h1,h2,h3,h4,h5,h6,p,li{
+   /* font-family:Aria,Helvetica,sans-serif;*/ font-family: "ambroise-std";
+    font-size:100%;font-weight:normal;font-style:normal;line-height:100%;text-indent:0;text-decoration:none;
+    text-align:left;color:#000;
+}
+h1,h2,h3,h4,h5,h6{font-weight:bold;
+}
+h1{font-size:24px}
+h2{font-size:20px}
+
+ol,ul{
+    list-style:one;
+}
+html{}
+body{  
+   
+    }
+    .custom{
+        position:fixed;
+        z-index:1;
+        background-color:darkblue!important;
+        width:100%;
+        max-height:150px;
+        font-size:20px;
+    }
+    a.nav-item:{color:red}
+    a.nav-link{color:#FFF!important;}
+    a.nav-link:hover{color:orange!important;text-decoration:underline;}
+
+    
+/* Containers*/
+    #head{ 
+        max-width:100%;
+        height:720px;
+        max-height:800px;
+        background-image:url('http://assets.nydailynews.com/polopoly_fs/1.1542852.1386652602!/img/httpImage/image.jpg_gen/derivatives/article_750/178891861.jpg');
+        background-size:cover;
+        background-repeat:no-repeat; 
+        border-bottom:5px solid red;
+        overflow:hidden;
+        }
+        .slide {
+        
+        }
+               
+            
+    #slider{
+
+        width:12800px;
+        height:720px;
+        overflow:hidden;
+        margin-top:64px;
+        background-color:yellow;
+    }
+    .slides{
+        display:block;
+         width: 28000px;
+        height:720px; 
+        margin:0;
+        padding:0;
+        
+    }
+    .slide{
+        float:left; 
+        list-style-type:none;
+        width:1600px;
+        height:720px; 
+    }
+    #fun{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:flex-end;
+        background-color:skyblue;
+        width:100%;
+        height:600px;
+        overflow:auto;
+        position:relative;
+}
+.stage-div{
+    text-align:center;
+    line-height:40px;
+    width:100%;
+    height:150px;
+    font-weight:bold;
+    position:absolute;
+}
+
+ .box{
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+    align-items:center;
+   max-width: 100%;
+   height:600px;
+  /* border-radius:50%; */
+}
+.more{
+    color:blue;s
+}
+.email{
+    color:blue;
+}
+.img1-text1{
+    margin-left:20px;
+    font-size:20px;
+}
+.img1-text2{
+    margin-left:20px;
+    font-size:20px;
+    border:1px solid #cccc;
+    padding:15px;
+    font-family: 'Cardo', serif;
+}
+.img2-text2{
+    margin-left:20px;
+    font-size:20px;
+    text-align:justify;
+    font-family: 'Cardo', serif;
+}
+.img{
+    height:200px;
+    padding:25px;
+    border-bottom:1px solid #ccc;
+}
+
+.header-section{
+    font-family: 'Oxygen', sans-serif;
+    padding-top:25px;
+    text-align:center;
+}  
+.line{
+    width:80px;height:2px;background-color:darkblue;
+}
+#newSkills{
+    display:flex;
+    flex-flow:column;
+    align-content:center;
+    align-items:center;
+   max-width: 100%;
+   height:300px;
+}
+#interest{
+    display:flex;
+    flex-flow:column;
+    align-content:center;
+    align-items:center;
+   max-width: 100%;
+   height:300px;
+}
+#gate{
+    font-size: 50px;
+    font-family:'Berkshire Swash', cursive;
+    color:#FFF;
+    width:10vw;
+    height:100vw;
+}
+@media only screen and (max-width: 576px) {
+    #gate {
+        font-size:35px;
+    } 
+    .custom{
+        max-height:200px;
+    }
+}
+    /* When bootstrat is used we do not give the width dimension */  
+#footer{
+    background-color:#454545;
+    width:100%;
+    min-height:150px;
+    border-top:5px solid #FF0000;
+}
+#footer h2{
+    color:#FFF;
+    text-align:center;
+    font-size:30px;
+    padding-top:20px;
+    
+}
+#footer p{
+    text-align:center;
+    color:#FFF;
+    font-size:20px;
+}
