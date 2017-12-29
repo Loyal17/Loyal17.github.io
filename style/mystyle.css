@@ -60,7 +60,7 @@ body{
             
     #slider{
 
-        width:12800px;
+       width:12800px;  
         height:720px;
         overflow:hidden;
         margin-top:64px;
@@ -68,17 +68,22 @@ body{
     }
     .slides{
         display:block;
-         width: 28000px;
+       width: 28000px; 
         height:720px; 
         margin:0;
         padding:0;
         
     }
     .slide{
+        
         float:left; 
         list-style-type:none;
-        width:1600px;
+         width:1600px; 
         height:720px; 
+        
+    }
+    @media only screen and (max-width: 768px) {
+        .slide img{ width:100%}
     }
     #fun{
         display:flex;
@@ -191,8 +196,21 @@ body{
     padding-top:20px;
     
 }
+@media only screen and (max-width: 768px) {
+    #footer h2{ color:#FFF;
+        text-align:center;
+        font-size:20px;
+        padding-top:20px;}
+}
 #footer p{
     text-align:center;
     color:#FFF;
-    font-size:20px;
+    font-size:22px;
+}
+@media only screen and (max-width: 768px) {
+    #footer p{
+        text-align:center;
+        color:#FFF;
+        font-size:16px;
+    }
 }
