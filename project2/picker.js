@@ -1,5 +1,3 @@
-
-
 var colorBlock = document.getElementById('color-block');
 var ctx1 = colorBlock.getContext('2d');
 var width1 = colorBlock.width;
@@ -73,7 +71,7 @@ function mouseup(e) {
 }
 
 function changeColor(e) {
-  x = e.offsetX;
+  x = e.offsetX; //create the location of event wrt edge of the container of event
   y = e.offsetY;
   var imageData = ctx1.getImageData(x, y, 1, 1).data;
   rgbaColor = 'rgba(' + imageData[0] + ',' + imageData[1] + ',' + imageData[2] + ',1)';

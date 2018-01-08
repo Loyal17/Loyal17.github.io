@@ -1,3 +1,4 @@
+/* canvas */
 .canvas{
     border:1px black dotted;
     position:absolute;
@@ -14,8 +15,10 @@ body{
     overflow:hidden;
 }
 #canvas-container{
-    height:720px;
+    height: 500px;
 }  
+
+/* this is for color picker */
 /*  Warren --Specific to color picker styles*/
 #color-input {
     display: none;
