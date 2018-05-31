@@ -24,7 +24,7 @@
     
     <!-- color picker -->
     <label for="color-input" id="color-label" style="background-color: red"></label>  
-    <input type="checkbox" id="color-input" checked></input>
+   <input type="checkbox" id="color-input" unchecked></input> 
     <div id="color-picker">
       <canvas id="color-block" height="150" width="150"></canvas>
       <canvas id="color-strip" height="150" width="30"></canvas>
@@ -61,6 +61,9 @@
 
     <!-- buttons function -->
     <script type='text/javascript'>
+        $('color-input').load(function{
+            $(this).val('unchecked');
+        });
         $('#drawing-rectangle').click(()=>{
             currentFunction = new DrawingRectangle(contextReal,contextDraft);
         });

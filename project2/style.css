@@ -21,7 +21,7 @@ body{
 /* this is for color picker */
 /*  Warren --Specific to color picker styles*/
 #color-input {
-    display: none;
+   /* display: none;  */
   }
   #color-label {
     float:left;
@@ -33,7 +33,7 @@ body{
   } 
   #color-input:checked ~ #color-picker {
     opacity: 1;
-  }
+  }  
   #color-picker {
   position: absolute; 
     float:left;
